@@ -1,4 +1,4 @@
-ultralytics
+ultralytics==8.4.198
 opencv-python==4.10.0.84
-matplotlib
-pillow
+matplotlib==3.11.2
+pillow==13.0.0
