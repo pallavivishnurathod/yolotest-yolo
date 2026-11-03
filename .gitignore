@@ -11,11 +11,5 @@ env/
 # macOS
 .DS_Store
 
-# Generated detection results
-runs/
-
-# YOLO model weights
-*.pt
-
 # Environment variables
 .env
