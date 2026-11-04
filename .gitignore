@@ -13,3 +13,7 @@ env/
 
 # Environment variables
 .env
+
+# Local AI models
+.files/
+*.pt
