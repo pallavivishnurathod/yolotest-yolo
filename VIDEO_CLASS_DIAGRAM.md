@@ -28,7 +28,7 @@ classDiagram
         +int height
         +int total_frames
         +isOpened() bool
-        +read() tuple~bool, ndarray~
+        +read()
         +get(prop_id) float
         +release() void
     }
@@ -120,7 +120,7 @@ classDiagram
         +int height
         +int total_frames
         +isOpened() bool
-        +read() tuple~bool, ndarray~
+        +read()
         +release() void
     }
     VideoCapture ..> "1" ndarray : produces raw frame
