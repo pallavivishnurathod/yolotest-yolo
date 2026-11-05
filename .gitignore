@@ -17,3 +17,8 @@ env/
 # Local AI models
 .files/
 *.pt
+
+
+# Datasets and inference outputs
+dataset/
+runs/
