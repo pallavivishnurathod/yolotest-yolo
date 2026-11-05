@@ -161,7 +161,7 @@ class VideoPersonDetector:
 
 
 if __name__ == "__main__":
-    project_dir = Path.cwd()
+    project_dir = Path.cwd().parent if Path.cwd().name == "yolo-test" else Path.cwd()
     input_video = project_dir / "dataset" / "video.mp4"
     output_video = project_dir / "runs" / "person_detection_video" / "output.mp4"
 

@@ -213,7 +213,7 @@ class PersonDetector:
 
 if __name__ == "__main__":
     # Example execution mimicking detections.ipynb
-    project_dir = Path.cwd()
+    project_dir = Path.cwd().parent if Path.cwd().name == "yolo-test" else Path.cwd()
     input_img = project_dir / "dataset" / "images" / "construction_worker.jpg"
     output_directory = project_dir / "runs" / "person_detection"
 
